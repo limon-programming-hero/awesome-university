@@ -1,0 +1,27 @@
+.serviceCard {
+    width: 250px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.serviceCard img {
+    width: 100%;
+}
+
+.serviceText {
+    padding: 10px 0px;
+}
+
+.dashboardButton {
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid purple;
+    background-color: rgba(119, 136, 153, 0.753);
+}
+
+.dashboardButton:hover {
+    color: white;
+    background-color: slategray;
+}
