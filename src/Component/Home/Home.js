@@ -13,7 +13,7 @@ const Home = () => {
             setService(shortService);
         }
 
-    }, [FakeData]);
+    }, []);
 
 
     // const serveNumber = [1, 2, 3];
