@@ -25,7 +25,7 @@ const Dashboard = () => {
             return singleCourse;
         });
         SetPurchasedCourse(Courses);
-    }, [storedData]);
+    }, [storedData,storedId]);
     let no ;
     if(storedId.length === 0 ){
         no = <h4 style={{textAlign : 'center'}}>No course selected !</h4>
